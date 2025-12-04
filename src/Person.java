@@ -6,4 +6,12 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+
+    public void setName(String newName) {
+        name = newName;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
